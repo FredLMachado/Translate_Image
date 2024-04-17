@@ -15,3 +15,11 @@ Using template: https://github.com/ArielMAJ/python-repository-template
 ```
 GOOGLE_APPLICATION_CREDENTIALS = /path/to/api/key.json
 ```
+
+# Options
+
+```bash
+-f [file path, Leave empty to use clipboard Image]
+-s [source language]
+-t [target language]
+```
