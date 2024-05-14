@@ -5,7 +5,7 @@ endif
 
 .PHONY: install
 install: ## Install Python requirements.
-	python -m pip install --upgrade pip setuptools wheel poetry pillow google-cloud google-cloud-vision google-cloud-translate python-dotenv
+	python -m pip install --upgrade pip setuptools wheel poetry 
 	poetry lock
 	poetry install --no-root
 	poetry run pre-commit install
