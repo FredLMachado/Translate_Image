@@ -12,7 +12,7 @@ class ImageTranslator:
         pass
 
     def create_image(
-        self, image_path="!cLipboard!", source_lang="en", target_lang="pt"
+        self, image_path="!clipboard!", source_lang="en", target_lang="pt"
     ):
         detector = TextDetector()
         translator = Translator()
